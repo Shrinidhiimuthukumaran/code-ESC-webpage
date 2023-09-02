@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0px;
+        }
+        body{
+            background-color: #041a38;
+            
+
+        }
+        
+       
+        #d1{
+     
+           
+            opacity: 1.0;
+            margin: 0px;
+            display:flex;
+            background-color: rgb(58, 139, 185);
+            
+        }
+        /*rgb(20, 107, 156)*/
+        .d11 img{
+            margin:0px;
+            padding:5px;
+            opacity:1.0;
+            
+        } 
+        .d12{
+            margin-left:640px;
+            margin-top:30px;
+        }
+        .d12 nav a{
+            margin-right:30px;
+            font-size:x-large;
+            text-decoration: none;
+            color:lightgoldenrodyellow;
+            opacity:1.0;
+            padding:7px;
+            font-family: 'PT Serif', serif;
+            
+           
+        }
+        .d12 nav a:hover{
+            border-bottom: 2px solid black;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+        }
+        .div13{
+            width:200px;
+            background-color: #041a38;
+        }
+button{
+    border-radius:25px;
+    background-color:aqua;
+    padding:5px;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+
+  .achiever {
+    flex-basis: 45%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color:#fff;
+  }
+
+  .achiever img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+
+  .achiever h3 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+  }
+
+  .achiever p {
+    margin-top: 5px;
+    color: black;
+  }
+
+  .leaderboard {
+    flex-basis: 45%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color:powderblue;
+  }
+
+  .leaderboard h2 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+  }
+
+  .leaderboard ol {
+    list-style: none;
+    padding: 0;
+  }
+
+  .leaderboard li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .leaderboard li span {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+
+  .con1 {
+    display: flex;
+    align-items: center;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+
+  .icon {
+    flex-basis: 50%;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .icon img {
+    max-width: 100px;
+    height: auto;
+  }
+
+  .icon h3 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+  }
+
+  .icon p {
+    margin-top: 5px;
+    color: #666;
+  }
+/*
+  .con1 {
+    overflow: hidden;
+    position: relative;
+    width: 300px;
+    height: 300px;
+  }*/
+
+#a1 {
+    transition: transform 0.3s ease-in-out;
+    width: 100%;
+    height: 100%;
+  }
+  #a2{
+    transition: transform 0.3s ease-in-out;
+    width: 100%;
+    height: 100%;
+  }
+
+  .con1:hover img {
+    transform: scale(1.1);
+  }
+    </style>
+</head>
+<body>
+    <div id="d1">
+        <div class="d11">
+        <img src="logo.jpg" height="70px" width="70px">
+    </div>
+   
+
+    <div class="d12">
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Profile</a>
+            <a href="#">About Us</a>
+            <a href="#">Logout</a>
+        </nav>
+    </div>
+    </div>
+    
+    <div class="container">
+        <div class="achiever">
+          <img src="achiever1.png" alt="Achiever 1" height="100" width="100px">
+          <h3>Achiever </h3>
+          <p style="font-weight: bolder;font-size: x-large;">Today's achiever</p>
+        </div>
+        <div class="leaderboard">
+          <h2>Leaderboard</h2>
+          <ol>
+            <li><span>1.</span> Achiever 1</li>
+            <li><span>2.</span> Achiever 2</li>
+            <li><span>3.</span> Achiever 3</li>
+            <li><span>4.</span> Achiever 4</li>
+            <li><span>5.</span> Achiever 5</li>
+          </ol>
+        </div>
+      </div>
+      <div class="con1">
+        <div class="icon">
+            <a href="learn.html" id="learn"><img src="learnicon.png" id="a1" alt="Learning Icon" height="170px" width="170px"></a>
+          <h3>Learning Zone</h3>
+          <p style="color: black;">Expand your coding skills with our comprehensive learning resources.</p>
+        </div>
+        <div class="icon">
+           <a href="combat.html" id="combat"><img src="combaticon.png" id="a2" alt="Combat Icon" height="170px" width="170px"></a>
+          <h3>Combat Arena</h3>
+          <p style="color: black;">Sharpen your coding prowess in real coding challenges and competitions.</p>
+        </div>
+      </div>
+</body>
+</html>
